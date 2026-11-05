@@ -49,7 +49,7 @@ export default function About() {
               {/* Portrait Photo */}
               <img
                 src={stackImage}
-                alt={personalInfo?.name || 'Archana Gudugunti'}
+                alt="Archana Gudugunti — Data Analyst, TAP Academy student"
                 className="aspect-[3/4] w-full rounded-xl object-cover object-top shadow-inner"
               />
             </div>
