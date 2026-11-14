@@ -31,10 +31,10 @@ export default function Footer() {
 
       {/* Middle: Giant Brand Name Display */}
       <div className="py-20 md:py-24 overflow-hidden text-center flex justify-center items-center">
-        <h2 className="text-[18vw] md:text-[16vw] leading-none font-sans font-bold tracking-tighter lowercase select-none text-[#f4f4f4] whitespace-nowrap">
-          {personalInfo.brandName.toLowerCase()}
-        </h2>
-      </div>
+  <h2 className="text-[10vw] md:text-[8vw] leading-none font-sans font-bold tracking-tight select-none text-[#f4f4f4] whitespace-nowrap">
+    {personalInfo.brandName}
+  </h2>
+</div>
 
       {/* Bottom Row */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-end">
@@ -43,7 +43,7 @@ export default function Footer() {
           <a href="#contact" className="underline hover:text-white transition-colors inline-block w-fit">
             Contact
           </a>
-          <div className="space-y-0.5 text-white/60 text-[9px] md:text-[10px]">
+          <div className="text-[8px] whitespace-nowrap">
             <p>{footerContent.copyright}</p>
             <p>
               Trained at{' '}
